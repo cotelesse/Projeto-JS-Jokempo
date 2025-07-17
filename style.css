@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+  body {
+    background: url(https://picsum.photos/1600/900);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.square {
+    background-color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+button {
+    display: flex;
+    padding: 10px;
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#paper {
+    background-color: rgb(195, 195, 255);
+    border-radius: 10px;
+}
+
+#scissors {
+    background-color: rgb(195, 255, 195);
+    border-radius: 10px;
+}
+
+#rock {
+    background-color: rgb(255, 195, 195);
+    border-radius: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.humanResult span {
+    color: rgb(34, 62, 173);
+
+}
+
+.machineResult span {
+    color: rgba(166, 20, 20, 0.829);
+}
+
+@media (max-width: 600px){
+    .buttons button {
+        width: 50px;
+        height: 50px;
+        font-size: 32px;
+}}
+    
