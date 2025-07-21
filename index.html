@@ -12,6 +12,11 @@
     <div class="square">
         <h1>Jokenpô</h1>
 
+        <div class="mode-selection">
+            <h6>Selecione o modo de jogo:</h6>
+            <button class="select3" onclick="selecionarModo(3)">Modo 3 vitórias!</button>
+            <button class="select5" onclick="selecionarModo(5)">Modo 5 vitórias!</button>
+        </div>
         <div class="buttons">
             <button id="paper" onclick="humanPlay('paper')">&#x1F4C4</button>
             <button id="scissors" onclick="humanPlay('scissors')">&#x2702</button>
@@ -21,6 +26,8 @@
         <p class="result"></p>
         <p class="humanResult"><b>Sua Pontuação: <span id="human-point">0</span></b></p>
         <p class="machineResult"><b>Pontuação IA: <span id="machine-point">0</span></b></p>
+    
+        <button class="reset">🔄 Reiniciar</button>
     </div>
 </body>
 <script src="./script.js"></script>
