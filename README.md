@@ -4,21 +4,21 @@
 A aplicação simula partidas entre o jogador e a IA, oferecendo diferentes modos de jogo e uma interface amigável.</p>
 
 ## 🏡 Sobre o projeto
-<p>Este projeto foi desenvolvido como parte da minha jornada de estudos em desenvolvimento web. A ideia era recriar o clássico jogo "Pedra, Papel e Tesoura" com uma interface moderna, lógica de jogo clara e funcionalidades interativas.
-Durante o processo, busquei aplicar boas práticas de estruturação de código, responsividade e lógica de programação em JavaScript puro, sem uso de frameworks ou bibliotecas externas.</p>
+<p>Este projeto é uma versão interativa do clássico jogo Jokenpô (Pedra, Papel e Tesoura), desenvolvido com HTML, CSS e JavaScript puro. Foi criado com o objetivo de praticar lógica de programação, manipulação do DOM e eventos de forma divertida e educativa. Conta com um sistema de pontuação dinâmica, modo "Melhor de 3" e "Melhor de 5", além de fundo com transição de imagens.
+</p>
 
 ## 🖼 Demonstração
 <p>Você pode acessar a versão online do projeto <a href='https://cotelesse.github.io/Projeto-JS-Jokempo/'>clicando aqui</a></p>
 
 ## 🚀 Funcionalidades
 <ul>
-  <li>Escolha entre dois modos de jogo: melhor de 3 ou melhor de 5.</li>
-  <li>Sistema de pontuação em tempo real para jogador e IA.</li>
-  <li>Mensagens de resultado após cada rodada.</li>
-  <li>Reconhecimento automático de fim de jogo com destaque do vencedor.</li>
-  <li>Botão de reinício rápido para começar uma nova partida.</li>
-  <li>Fundo com transição de imagens dinâmica a cada 5 segundos.</li>
-  <li>Design responsivo para desktop e dispositivos móveis.</li>
+  <li>🎮 Escolha entre dois modos de jogo: melhor de 3 ou melhor de 5.</li>
+  <li>📊 Sistema de pontuação em tempo real para jogador e IA.</li>
+  <li>📝 Mensagens de resultado após cada rodada.</li>
+  <li>✅ Reconhecimento automático de fim de jogo com destaque do vencedor.</li>
+  <li>🔄 Botão de reinício rápido para começar uma nova partida.</li>
+  <li>🖼️ Fundo com transição de imagens dinâmica a cada 5 segundos.</li>
+  <li>📱 Design responsivo para desktop e dispositivos móveis.</li>
 </ul>
 
 ## 📁 Estrutura do Projeto
